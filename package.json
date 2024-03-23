@@ -1,0 +1,16 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass": "sass --watch ./src/sass/main.scss ./src/styles/main.css"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0",
+    "vite-jsconfig-paths": "^2.0.1"
+  }
+}
