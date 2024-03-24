@@ -1,11 +1,12 @@
-import { El } from "./components/shared/el";
-import { Header } from "./components/header";
+import { El } from './components/shared/el';
+import { Header } from './components/header';
+import { Sidebar } from './components/sidebar';
 export const App = () => {
   return El({
-    element: "div",
+    element: 'div',
     restAttrs: {
-      dir: "rtl",
+      dir: 'rtl',
     },
-    children: [Header()],
+    children: [Header(), Sidebar()],
   });
 };
