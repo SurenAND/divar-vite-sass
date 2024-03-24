@@ -94,15 +94,15 @@ article.sidebar span.headermeno {
 article.sidebar ul {
   list-style-type: none;
 }
-article.sidebar li {
+article.sidebar ul li {
   color: #a1a1a1;
   padding-top: 1%;
 }
-article.sidebar svg {
-  margin-left: 0.5%;
+article.sidebar ul li img {
+  margin-left: 0.5rem;
 }
 article.sidebar hr {
-  width: 20%;
+  width: 25%;
   margin-top: 2%;
 }
 article.sidebar article.location {
@@ -158,11 +158,51 @@ label {
   height: 0.3rem;
 }
 
+.iconprice {
+  margin-top: 0.5rem;
+}
 .iconprice select {
   padding: 0.3rem;
   border: solid 1px #d6d6d6;
   outline: none;
   margin-right: 0.3rem;
+}
+
+article.link {
+  width: 30%;
+  gap: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+article.link a {
+  text-decoration: none;
+  color: #7d7171;
+  font-size: 0.8rem;
+}
+article.link a:hover {
+  color: black;
+}
+
+.iconadvertising {
+  margin-top: 0.5rem;
+}
+.iconadvertising .divphoto {
+  margin: 0.7rem 0;
+  display: flex;
+}
+.iconadvertising .divfori {
+  display: flex;
+}
+
+.divbtn {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+.divbtn img {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

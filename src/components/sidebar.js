@@ -15,43 +15,103 @@ export const Sidebar = () => {
         children: [
           El({
             element: 'li',
-            children: ['املاک'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/buildings.svg',
+              }),
+              'املاک',
+            ],
           }),
           El({
             element: 'li',
-            children: ['وسایل نقلیه'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/car-front.svg',
+              }),
+              'وسایل نقلیه',
+            ],
           }),
           El({
             element: 'li',
-            children: ['کالای دیجیتال'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/phone.svg',
+              }),
+              'کالای دیجیتال',
+            ],
           }),
           El({
             element: 'li',
-            children: ['خانه و آشپزخانه'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/lamp.svg',
+              }),
+              'خانه و آشپزخانه',
+            ],
           }),
           El({
             element: 'li',
-            children: ['خدمات'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/fluent--paint-brush-32-regular.svg',
+              }),
+              'خدمات',
+            ],
           }),
           El({
             element: 'li',
-            children: ['وسایل شخصی'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/watch.svg',
+              }),
+              'وسایل شخصی',
+            ],
           }),
           El({
             element: 'li',
-            children: ['سرگرمی و فراغت'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/lucide--dices.svg',
+              }),
+              'سرگرمی و فراغت',
+            ],
           }),
           El({
             element: 'li',
-            children: ['اجتماعی'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/octicon--people-16.svg',
+              }),
+              'اجتماعی',
+            ],
           }),
           El({
             element: 'li',
-            children: ['تجهیزات صنعتی'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/solar--chair-2-broken.svg',
+              }),
+              'تجهیزات صنعتی',
+            ],
           }),
           El({
             element: 'li',
-            children: ['استخدام و کاریابی'],
+            children: [
+              El({
+                element: 'img',
+                src: './src/assets/images/sidebar/fluent-mdl2--work.svg',
+              }),
+              'استخدام و کاریابی',
+            ],
           }),
         ],
       }),
@@ -385,6 +445,7 @@ export const Sidebar = () => {
               }),
               El({
                 element: 'div',
+                className: 'divphoto',
                 children: [
                   El({
                     element: 'span',
@@ -413,6 +474,7 @@ export const Sidebar = () => {
               }),
               El({
                 element: 'div',
+                className: 'divfori',
                 children: [
                   El({
                     element: 'span',
@@ -452,23 +514,95 @@ export const Sidebar = () => {
         children: [
           El({
             element: 'a',
+            restAttrs: {
+              href: '#',
+            },
             children: ['درباره دیوار'],
           }),
           El({
             element: 'a',
+            restAttrs: {
+              href: '#',
+            },
             children: ['دریافت برنامه'],
           }),
           El({
             element: 'a',
+            restAttrs: {
+              href: '#',
+            },
             children: ['اتاق خبر'],
           }),
           El({
             element: 'a',
+            restAttrs: {
+              href: '#',
+            },
             children: ['کسب و کارها'],
           }),
           El({
             element: 'a',
+            restAttrs: {
+              href: '#',
+            },
             children: ['پشتیبانی و قوانین'],
+          }),
+        ],
+      }),
+      El({
+        element: 'br',
+      }),
+      El({
+        element: 'div',
+        className: 'divbtn',
+        children: [
+          El({
+            element: 'img',
+            src: './src/assets/images/media/twitter.svg',
+            children: [
+              El({
+                element: 'a',
+                restAttrs: {
+                  href: '#',
+                },
+              }),
+            ],
+          }),
+          El({
+            element: 'img',
+            src: './src/assets/images/media/instagram.svg',
+            children: [
+              El({
+                element: 'a',
+                restAttrs: {
+                  href: '#',
+                },
+              }),
+            ],
+          }),
+          El({
+            element: 'img',
+            src: './src/assets/images/media/linkedin.svg',
+            children: [
+              El({
+                element: 'a',
+                restAttrs: {
+                  href: '#',
+                },
+              }),
+            ],
+          }),
+          El({
+            element: 'img',
+            src: './src/assets/images/media/aparat.svg',
+            children: [
+              El({
+                element: 'a',
+                restAttrs: {
+                  href: '#',
+                },
+              }),
+            ],
           }),
         ],
       }),
